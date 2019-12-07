@@ -1,0 +1,105 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+	align-items: center;
+	margin: auto;
+	font-family: sans-serif;
+	color: #2d3c49;
+}
+
+h2 {
+	margin: 0;
+}
+
+/*
+*
+*HEADER SECTION
+*
+*/
+
+.header-logo {
+	height: 54px;
+	
+}
+
+.header-title,
+.header-subtitle {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.header-title,
+.header-subtitle, 
+.featured-work {
+	font-weight: lighter;
+}
+
+.header-title {
+	font-size: 36px;
+}
+
+.header-subtitle {
+	text-align: end;
+	font-size: 28px;
+}
+
+/*
+*
+*PROJECT SECTION
+*
+*/
+
+.section-title {
+	font-size: 32px;
+	text-align: center;
+}
+
+.projects__list {
+	padding: 0;
+	list-style: none;
+}
+
+.projects__list_cont {
+	margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects .btn {
+	opacity: 0.9;
+}
+
+/*
+*
+*BOOTSTRAP EDITS
+*
+*/
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*
+*
+*Media Queries SECTION
+*
+*/
+@media screen and (min-width: 340px) {
+	.header-logo {
+		margin-left: 0;
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.header-title {
+		font-size: 64px;
+	}
+
+	.section-title {
+		font-size: 48px;
+	}
+}
